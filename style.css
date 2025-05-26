@@ -1,0 +1,137 @@
+:root {
+    --verde-principal: #46655d;
+    --verde-secundario: #4CAF50;
+    --verde-pastel: #A5D6A7;
+    --texto-escuro: #1C1C1C;
+    --fundo-claro: #f3e8d3;
+    --borda: #a87657;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--fundo-claro);
+    color: var(--texto-escuro);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+.hero {
+    background-color: var(--verde-principal);
+    color: white;
+    padding: 18px 80px;
+    border-top: 5px solid var(--borda);
+    text-align: left;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.btn {
+    background-color: var(--verde-principal);
+    color: var(--fundo-claro);
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: var(--borda);
+    color: var(--fundo-claro);
+}
+
+.text-banner{
+    padding: 150px;
+
+    span{
+        font-size: 3rem;
+        line-height: 20px;
+        color: var(--verde-principal);
+    }
+    p{
+        margin-top: 20px;
+        text-align: justify;
+        color: var(--borda);
+    }
+    h2 {
+        color: var(--verde-principal);
+        font-size: 5rem;
+    }
+}
+
+.areas-atendo{
+    background-color: var(--verde-principal);
+    border-top: 5px solid var(--borda);
+    padding: 40px;
+
+    h2{
+        color: var(--fundo-claro);
+    }
+
+    .card{
+        background: var(--borda);
+        color: var(--fundo-claro);
+    }
+}
+
+.agendar-consulta{
+    background-color: var(--fundo-claro);
+    border-top: 5px solid var(--borda);
+    padding: 40px;
+}
+
+.como-funciona{
+    background-color: var(--verde-principal);
+    border-top: 5px solid var(--borda);
+    padding: 40px;
+
+    h2{
+        color: var(--fundo-claro);
+    }
+
+    .card{
+        background: var(--borda);
+        color: var(--fundo-claro);
+    }
+}
+
+.ebook{
+    background-color: var(--verde-principal);
+    border-top: 5px solid var(--borda);
+    padding: 40px;
+    color: var(--fundo-claro);
+
+    .btn{
+        background-color: var(--borda);
+    }
+}
+
+footer{
+    padding: 15px;
+    border-top: 5px solid var(--borda);
+    color: var(--borda);
+}
+
+
+section {
+    padding: 40px 20px 0px;
+}
+
+img{
+    width: 60%;
+}
+
+@media (max-width: 768px) {
+    .text-banner{
+        padding: 20px;
+    }
+
+
+}
