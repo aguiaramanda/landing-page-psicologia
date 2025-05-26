@@ -9,6 +9,6 @@ Criada especialmente para apresentar os serviços de uma psicóloga clínica, a 
 - Divulgação de eBook sobre Transtorno de Personalidade Borderline
 - Botão de contato via WhatsApp
 
-O layout foi pensado para ser responsivo, com animações sutis e paleta em tons de verde (verde lésbico) para transmitir tranquilidade e empatia.
+O layout foi pensado para ser responsivo, com animações sutis e paleta em tons de verde para transmitir tranquilidade e empatia.
 
 > 💻 Acesse a landing page: [https://aguiaramanda.github.io/landing-page-psicologia/](https://aguiaramanda.github.io/landing-page-psicologia/)
