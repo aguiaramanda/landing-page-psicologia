@@ -16,12 +16,9 @@ body {
     text-align: center;
 }
 
-.sobre{
-    img{
-        padding-top: 65px;
-    }
+.sobre img{
+    padding-top: 65px;
 }
-
 
 .hero {
     background-color: var(--verde-principal);
@@ -55,36 +52,38 @@ body {
 
 .text-banner{
     padding: 150px;
+}
 
-    span{
-        font-size: 3rem;
-        line-height: 20px;
-        color: var(--verde-principal);
-    }
-    p{
-        margin-top: 20px;
-        text-align: justify;
-        color: var(--borda);
-    }
-    h2 {
-        color: var(--verde-principal);
-        font-size: 5rem;
-    }
+.text-banner span{
+    font-size: 3rem;
+    line-height: 20px;
+    color: var(--verde-principal);
+}
+.text-banner p{
+    margin-top: 20px;
+    text-align: justify;
+    color: var(--borda);
+}
+.text-banner h2 {
+    color: var(--verde-principal);
+    font-size: 2.5rem; 
+    word-break: break-word;
+    margin: 0 auto;
+    max-width: 90%;
 }
 
 .areas-atendo{
     background-color: var(--verde-principal);
     border-top: 5px solid var(--borda);
     padding: 40px;
+}
+.areas-atendo h2{
+    color: var(--fundo-claro);
+}
 
-    h2{
-        color: var(--fundo-claro);
-    }
-
-    .card{
-        background: var(--borda);
-        color: var(--fundo-claro);
-    }
+.areas-atendo .card{
+    background: var(--borda);
+    color: var(--fundo-claro);
 }
 
 .agendar-consulta{
@@ -97,15 +96,14 @@ body {
     background-color: var(--verde-principal);
     border-top: 5px solid var(--borda);
     padding: 40px;
+}
+.como-funciona h2{
+    color: var(--fundo-claro);
+}
 
-    h2{
-        color: var(--fundo-claro);
-    }
-
-    .card{
-        background: var(--borda);
-        color: var(--fundo-claro);
-    }
+.como-funciona .card{
+    background: var(--borda);
+    color: var(--fundo-claro);
 }
 
 .encerramento{
@@ -113,20 +111,20 @@ body {
     border-top: 5px solid var(--borda);
     padding: 40px;
     color: var(--fundo-claro);
+}
 
-    img{
+.encerramento img{
         width:150px; 
         border-radius:50%; 
         object-fit:cover; 
         box-shadow:0 0 10px rgba(0,0,0,0.1);
     }
-    .btn{
+.encerramento .btn{
         background-color: var(--borda);
-    }
-    .btn:hover{
+}
+.encerramento .btn:hover{
       background-color: var(--fundo-claro);
       color: var(--borda);  
-    }
 }
 
 .ebook{
@@ -134,10 +132,10 @@ body {
     border-top: 5px solid var(--borda);
     padding: 40px;
     color: var(--fundo-claro);
+}
 
-    .btn{
-        background-color: var(--borda);
-    }
+.ebook .btn{
+    background-color: var(--borda);
 }
 
 footer{
@@ -155,17 +153,31 @@ img{
     width: 60%;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 390px) {
     .text-banner{
         padding: 20px;
     }
     .hero{
         padding: 18px 13px;
     }
+    .text-banner h2 {
+        font-size: 2.5rem;
+        padding-bottom: 20px;
+    }
+    .text-banner span{
+        font-size: 2rem;
+    }
+
+    .sobre img {
+        padding-top: 12px;
+    }
 }
 
 @media (min-width: 1366px) {
     .text-banner{
         padding: 40px;
+    }
+    .text-banner h2{
+        font-size: 5rem;
     }
 }
