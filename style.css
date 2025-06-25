@@ -27,7 +27,7 @@ body {
 
 .hero h1 {
     margin: 0;
-    font-size: 2.5em;
+    font-size: 0.8em;
 }
 
 .btn {
@@ -102,6 +102,27 @@ body {
     }
 }
 
+.encerramento{
+    background-color: var(--verde-principal);
+    border-top: 5px solid var(--borda);
+    padding: 40px;
+    color: var(--fundo-claro);
+
+    img{
+        width:150px; 
+        border-radius:50%; 
+        object-fit:cover; 
+        box-shadow:0 0 10px rgba(0,0,0,0.1);
+    }
+    .btn{
+        background-color: var(--borda);
+    }
+    .btn:hover{
+      background-color: var(--fundo-claro);
+      color: var(--borda);  
+    }
+}
+
 .ebook{
     background-color: var(--verde-principal);
     border-top: 5px solid var(--borda);
@@ -132,6 +153,13 @@ img{
     .text-banner{
         padding: 20px;
     }
+    .hero{
+        padding: 18px 13px;
+    }
+}
 
-
+@media (min-width: 1366px) {
+    .text-banner{
+        padding: 75px;
+    }
 }
