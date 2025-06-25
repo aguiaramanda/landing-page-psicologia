@@ -16,6 +16,12 @@ body {
     text-align: center;
 }
 
+.sobre{
+    img{
+        padding-top: 65px;
+    }
+}
+
 
 .hero {
     background-color: var(--verde-principal);
@@ -160,6 +166,6 @@ img{
 
 @media (min-width: 1366px) {
     .text-banner{
-        padding: 75px;
+        padding: 40px;
     }
 }
